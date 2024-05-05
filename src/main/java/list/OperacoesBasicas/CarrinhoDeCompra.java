@@ -62,7 +62,7 @@ public class CarrinhoDeCompra {
         carrinho.removerItem("Leite");
 
         System.out.println(" ");
-        System.out.println("Após retirar todos o leite: ");
+        System.out.println("Após retirar o leite: ");
         carrinho.exibirItens();
         System.out.println("Valor total: " + carrinho.calcularValorTotal());
 
