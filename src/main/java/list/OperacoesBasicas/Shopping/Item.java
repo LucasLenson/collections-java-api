@@ -1,4 +1,4 @@
-package main.java.list.OperacoesBasicas;
+package main.java.list.OperacoesBasicas.Shopping;
 
 import org.w3c.dom.ls.LSOutput;
 

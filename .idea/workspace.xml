@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ed0e759-abac-47cd-a780-804c2974bf16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/Convidado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Shopping/CarrinhoDeCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Shopping/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/ListaTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa/ListaTarefa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
   "keyToString": {
     "Application.CarrinhoDeCompra.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
+    "Application.ConjuntoConvidados.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.OrdenacaoPessoas.executor": "Run",
@@ -50,6 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lucas/IdeaProjects/collections-java-api/src/main/java/list/OperacoesBasicas/shopping",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +65,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrdenacaoPessoas">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucas\IdeaProjects\collections-java-api\src\main\java\list\OperacoesBasicas\shopping" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConjuntoConvidados">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -91,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="CarrinhoDeCompra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.CarrinhoDeCompra" />
+      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.Shopping.CarrinhoDeCompra" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.list.OperacoesBasicas.Tarefa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.ListaTarefa" />
+    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.OperacoesBasicas.ConjuntoConvidados" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.set.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,9 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.comparableXcomparator.Main" />
+    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.Tarefa.ListaTarefa" />
       <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.list.OperacoesBasicas.Tarefa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.CarrinhoDeCompra" />
         <item itemvalue="Application.ListaTarefa" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +194,7 @@
       <workItem from="1714765724639" duration="11101000" />
       <workItem from="1714795841709" duration="92000" />
       <workItem from="1714795954020" duration="365000" />
-      <workItem from="1714939359310" duration="12005000" />
+      <workItem from="1714939359310" duration="14308000" />
     </task>
     <servers />
   </component>
