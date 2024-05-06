@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ed0e759-abac-47cd-a780-804c2974bf16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/CadastroProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AgendaContatos.executor": "Run",
+    "Application.CadastroProdutos.executor": "Run",
     "Application.CarrinhoDeCompra.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
     "Application.ConjuntoConvidados.executor": "Run",
@@ -67,7 +68,7 @@
       <recent name="C:\Users\Lucas\IdeaProjects\collections-java-api\src\main\java\list\OperacoesBasicas\shopping" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AgendaContatos">
+  <component name="RunManager" selected="Application.CadastroProdutos">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarrinhoDeCompra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.Shopping.CarrinhoDeCompra" />
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.CadastroProdutos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.OperacoesBasicas.Tarefa.*" />
+          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContatos" />
         <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.CatalogoLivros" />
-        <item itemvalue="Application.CarrinhoDeCompra" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +192,7 @@
       <workItem from="1714765724639" duration="11101000" />
       <workItem from="1714795841709" duration="92000" />
       <workItem from="1714795954020" duration="365000" />
-      <workItem from="1714939359310" duration="16479000" />
+      <workItem from="1714939359310" duration="19313000" />
     </task>
     <servers />
   </component>
