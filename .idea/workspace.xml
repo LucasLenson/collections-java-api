@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ed0e759-abac-47cd-a780-804c2974bf16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/Convidado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/Contato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Shopping/CarrinhoDeCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Shopping/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/ListaTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa/ListaTarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AgendaContatos.executor": "Run",
     "Application.CarrinhoDeCompra.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
     "Application.ConjuntoConvidados.executor": "Run",
@@ -70,7 +67,7 @@
       <recent name="C:\Users\Lucas\IdeaProjects\collections-java-api\src\main\java\list\OperacoesBasicas\shopping" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConjuntoConvidados">
+  <component name="RunManager" selected="Application.AgendaContatos">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -97,6 +94,19 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Pesquisa.AgendaContatos" />
+      <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.set.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,19 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.Tarefa.ListaTarefa" />
-      <module name="collections-java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.list.OperacoesBasicas.Tarefa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrdenacaoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.list.Ordenacao.OrdenacaoPessoas" />
       <module name="collections-java-api" />
@@ -168,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AgendaContatos" />
         <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.CarrinhoDeCompra" />
-        <item itemvalue="Application.ListaTarefa" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +191,7 @@
       <workItem from="1714765724639" duration="11101000" />
       <workItem from="1714795841709" duration="92000" />
       <workItem from="1714795954020" duration="365000" />
-      <workItem from="1714939359310" duration="14308000" />
+      <workItem from="1714939359310" duration="16479000" />
     </task>
     <servers />
   </component>
