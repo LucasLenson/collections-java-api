@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ed0e759-abac-47cd-a780-804c2974bf16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/EstoqueProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/map/AgendaContatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/OperacoesBasicas/AgendaContatos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,37 +39,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AgendaContatos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CadastroProdutos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarrinhoDeCompra.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CatalogoLivros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConjuntoConvidados.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListaTarefa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrdenacaoPessoas.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/IdeaProjects/collections-java-api/src/main/java/list/OperacoesBasicas/shopping&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lucas/IdeaProjects/collections-java-api/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AgendaContatos.executor": "Run",
+    "Application.CadastroProdutos.executor": "Run",
+    "Application.CarrinhoDeCompra.executor": "Run",
+    "Application.CatalogoLivros.executor": "Run",
+    "Application.ConjuntoConvidados.executor": "Run",
+    "Application.EstoqueProdutos.executor": "Run",
+    "Application.ListaTarefa.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OrdenacaoPessoas.executor": "Run",
+    "Application.main.java.map.AgendaContatos.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lucas/IdeaProjects/collections-java-api/src/main/java/list/OperacoesBasicas/shopping",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Lucas/IdeaProjects/collections-java-api/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lucas\IdeaProjects\collections-java-api\src\main\java\list\OperacoesBasicas\shopping" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main.java.map.AgendaContatos">
+  <component name="RunManager" selected="Application.EstoqueProdutos">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -137,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenacaoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.Ordenacao.OrdenacaoPessoas" />
+    <configuration name="EstoqueProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.map.Pesquisa.EstoqueProdutos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.Ordenacao.*" />
+          <option name="PATTERN" value="main.java.map.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.java.map.AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.map.AgendaContatos" />
+    <configuration name="main.java.map.OperacoesBasicas.AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.map.OperacoesBasicas.AgendaContatos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.map.*" />
+          <option name="PATTERN" value="main.java.map.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main.java.map.AgendaContatos" />
+        <item itemvalue="Application.EstoqueProdutos" />
+        <item itemvalue="Application.main.java.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContatos" />
         <item itemvalue="Application.ConjuntoConvidados" />
-        <item itemvalue="Application.OrdenacaoPessoas" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,7 @@
       <workItem from="1714795841709" duration="92000" />
       <workItem from="1714795954020" duration="365000" />
       <workItem from="1714939359310" duration="20228000" />
-      <workItem from="1715048265808" duration="1565000" />
+      <workItem from="1715048265808" duration="3673000" />
     </task>
     <servers />
   </component>
