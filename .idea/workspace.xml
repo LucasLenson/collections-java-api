@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ed0e759-abac-47cd-a780-804c2974bf16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/EstoqueProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/AgendaEventos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Evento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/map/AgendaContatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/OperacoesBasicas/AgendaContatos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AgendaContatos.executor": "Run",
+    "Application.AgendaEventos.executor": "Run",
     "Application.CadastroProdutos.executor": "Run",
     "Application.CarrinhoDeCompra.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
@@ -71,7 +71,7 @@
       <recent name="C:\Users\Lucas\IdeaProjects\collections-java-api\src\main\java\list\OperacoesBasicas\shopping" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EstoqueProdutos">
+  <component name="RunManager" selected="Application.AgendaEventos">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -115,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.CadastroProdutos" />
+    <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.map.Ordenacao.AgendaEventos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
+          <option name="PATTERN" value="main.java.map.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.set.OperacoesBasicas.ConjuntoConvidados" />
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.CadastroProdutos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.set.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AgendaEventos" />
         <item itemvalue="Application.EstoqueProdutos" />
         <item itemvalue="Application.main.java.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContatos" />
-        <item itemvalue="Application.ConjuntoConvidados" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +196,8 @@
       <workItem from="1714795841709" duration="92000" />
       <workItem from="1714795954020" duration="365000" />
       <workItem from="1714939359310" duration="20228000" />
-      <workItem from="1715048265808" duration="3673000" />
+      <workItem from="1715048265808" duration="4456000" />
+      <workItem from="1715135450643" duration="4682000" />
     </task>
     <servers />
   </component>
